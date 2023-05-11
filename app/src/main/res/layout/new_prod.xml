@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="24dp"
+        android:fontFamily="sans-serif-light"
+        android:hint="nombre"
+        android:inputType="textAutoComplete"
+        android:layout_margin="24dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edit_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="24dp"
+        android:fontFamily="sans-serif-light"
+        android:hint="precio"
+        android:inputType="number"
+        android:layout_margin="24dp"
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:id="@+id/edit_existencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="24dp"
+        android:fontFamily="sans-serif-light"
+        android:hint="precio"
+        android:inputType="textAutoComplete"
+        android:layout_margin="24dp"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_primary"
+        android:text="Guardar"
+        android:layout_margin="24dp"
+        android:textColor="@color/white" />
+
+</LinearLayout>

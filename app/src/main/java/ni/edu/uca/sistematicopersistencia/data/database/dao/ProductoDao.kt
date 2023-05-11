@@ -21,4 +21,6 @@ interface ProductoDao {
     @Delete
     suspend fun eliminarReg(producto: EntityProducto)
 
+    @Query("DELETE FROM TblProducto")
+    suspend fun deleteAll()
 }
